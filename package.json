@@ -43,7 +43,7 @@
 		"prettier": "^2.5.0",
 		"prettier-plugin-svelte": "^2.5.0",
 		"rimraf": "^3.0.2",
-		"rollup": "^2.60.2",
+		"rollup": "^2.74.1",
 		"sirv": "^2.0.0",
 		"svelte": "^3.48.0",
 		"svelte-check": "^2.5.0",

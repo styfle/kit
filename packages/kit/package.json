@@ -13,7 +13,7 @@
 		"@sveltejs/vite-plugin-svelte": "^1.0.0-next.44",
 		"chokidar": "^3.5.3",
 		"sade": "^1.7.4",
-		"vite": "^2.9.9"
+		"vite": "^3.0.0-alpha.6"
 	},
 	"devDependencies": {
 		"@types/connect": "^3.4.35",
@@ -28,7 +28,6 @@
 		"locate-character": "^2.0.5",
 		"mime": "^3.0.0",
 		"node-fetch": "^3.1.0",
-		"selfsigned": "^2.0.0",
 		"set-cookie-parser": "^2.4.8",
 		"svelte": "^3.48.0"
 	},

@@ -212,8 +212,6 @@ export async function build_server(
 
 	/** @type {[any, string[]]} */
 	const [merged_config, conflicts] = deep_merge(modified_vite_config, {
-		configFile: false,
-		root: cwd,
 		base: assets_base,
 		build: {
 			ssr: true,
@@ -231,6 +229,7 @@ export async function build_server(
 				preserveEntrySignatures: 'strict'
 			}
 		},
+		configFile: false,
 		plugins: [
 			svelte({
 				...config,
@@ -243,7 +242,9 @@ export async function build_server(
 		],
 		resolve: {
 			alias: get_aliases(config)
-		}
+		},
+		root: cwd,
+		spa: false
 	});
 
 	print_config_conflicts(conflicts, 'kit.vite.', 'build_server');
