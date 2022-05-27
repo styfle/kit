@@ -1,5 +1,11 @@
 # @sveltejs/kit
 
+## 1.0.0-next.346
+
+### Patch Changes
+
+- [chore] provide Vite config via plugin ([#5073](https://github.com/sveltejs/kit/pull/5073))
+
 ## 1.0.0-next.345
 
 ### Patch Changes
